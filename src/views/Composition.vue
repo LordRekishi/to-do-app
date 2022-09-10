@@ -63,14 +63,6 @@ watch(newTodoName, (newValue) => {
     alert("You must NEVER say " + newValue + "!!");
   }
 });
-
-// Use Reactive object instead of refs
-// I template, använda data.newTodoName istället för newTodoName, osv
-// Funktioner och sådant blir data.newTodoName istället för newTodoName.value, osv
-/* let data = reactive({
-  newTodoName: "",
-  todos: [],
-}); */
 </script>
 
 <style scoped>
